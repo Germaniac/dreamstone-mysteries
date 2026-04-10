@@ -6056,6 +6056,23 @@ const struct Item gItemsInfo[] =
         .iconPalette = gItemIconPalette_Diancite,
     },
 
+    [ITEM_SKARMORITE] =
+    {
+        .name = ITEM_NAME("Skarmorite"),
+        .price = 1500,
+        .holdEffect = HOLD_EFFECT_MEGA_STONE,
+        .description = COMPOUND_STRING(
+            "This stone enables\n"
+            "Skarmory to Mega\n"
+            "Evolve in battle."),
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .flingPower = 80,
+        .iconPic = gItemIcon_Skarmorite,
+        .iconPalette = gItemIconPalette_Skarmorite,
+    },
+
 // Gems
 
     [ITEM_NORMAL_GEM] =
