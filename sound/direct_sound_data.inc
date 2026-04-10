@@ -1923,6 +1923,10 @@ Cry_Mantine::
 	.align 2
 Cry_Skarmory::
 	.incbin "sound/direct_sound_samples/cries/skarmory.bin"
+
+	.align 2
+Cry_SkarmoryMega::
+	.incbin "sound/direct_sound_samples/cries/skarmory_mega.bin"
 .endif @ P_FAMILY_SKARMORY
 
 .if P_FAMILY_HOUNDOUR == TRUE
