@@ -1007,7 +1007,7 @@ extern const u32 gItemIconPalette_Audinite[];
 extern const u32 gItemIcon_Diancite[];
 extern const u32 gItemIconPalette_Diancite[];
 extern const u32 gItemIcon_Skarmorite[];
-extern const u16 gItemIconPalette_Skarmorite[];
+extern const u32 gItemIconPalette_Skarmorite[];
 // Gems
 extern const u32 gItemIcon_NormalGem[];
 extern const u32 gItemIconPalette_NormalGem[];
