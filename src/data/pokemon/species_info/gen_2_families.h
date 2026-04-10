@@ -7040,9 +7040,8 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .shinyPalette = gMonShinyPalette_SkarmoryMega,
         .iconSprite = gMonIcon_SkarmoryMega,
         .iconPalIndex = 0,
-        .pokemonJumpType = PKMN_JUMP_TYPE_NONE,
-        FOOTPRINT(Skarmory)
         SHADOW(2, 16, SHADOW_SIZE_M)
+        FOOTPRINT(Skarmory)
         .isMegaEvolution = TRUE,
         .levelUpLearnset = sSkarmoryLevelUpLearnset,
         .teachableLearnset = sSkarmoryTeachableLearnset,
