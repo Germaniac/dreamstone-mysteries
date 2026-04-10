@@ -707,7 +707,6 @@ static const u16 sCorsolaFormSpeciesIdTable[] = {
 static const u16 sSkarmoryFormSpeciesIdTable[] = {
     SPECIES_SKARMORY,
     SPECIES_SKARMORY_MEGA,
-#endif
     FORM_SPECIES_END,
 };
 #endif //P_FAMILY_SKARMORY
