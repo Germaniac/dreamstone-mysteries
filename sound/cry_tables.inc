@@ -660,6 +660,7 @@ gCryTable::
 .endif @ P_FAMILY_MANTINE
 .if P_FAMILY_SKARMORY == TRUE
 	cry Cry_Skarmory
+	cry Cry_SkarmoryMega
 .endif @ P_FAMILY_SKARMORY
 .if P_FAMILY_HOUNDOUR == TRUE
 	cry Cry_Houndour
@@ -3088,6 +3089,7 @@ gCryTable_Reverse::
 .endif @ P_FAMILY_MANTINE
 .if P_FAMILY_SKARMORY == TRUE
 	cry_reverse Cry_Skarmory
+	cry_reverse Cry_SkarmoryMega
 .endif @ P_FAMILY_SKARMORY
 .if P_FAMILY_HOUNDOUR == TRUE
 	cry_reverse Cry_Houndour
